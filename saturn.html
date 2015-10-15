@@ -4,15 +4,15 @@ this is my homepage :@)
   <li><a href="saturn/timbre-chord-work.html">chord work</a></li>
 </ul>
 
-<textarea id="txt"></textarea>
+<pre id="txt"></pre>
 <script>
 var txt = document.getElementById("txt");
 txt_str = "";
-for (var i = 0; i < 50; i++){
+for (var i = 0; i < 25; i++){
   for (var j = 0; j < 50; j++){
     txt_str += "o";
   }
-  if (i < 49) txt_str += "\n";
+  if (i < 24) txt_str += "\n";
 }
 txt.innerHTML = txt_str;
 
